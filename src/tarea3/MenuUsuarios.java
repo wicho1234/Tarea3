@@ -9,6 +9,8 @@ public class MenuUsuarios {
             
         
         tec in = new tec();
+        System.out.println("MENU");
+        System.out.println("201602724");
         System.out.println("1. Usuario");
         System.out.println("2. Palabras Palindromas");
         System.out.println("3. Salir");
@@ -21,10 +23,17 @@ public class MenuUsuarios {
     public static void opciones(int opcion){
         switch(opcion){
             case 1:
-                UsuariosMenu in=new UsuariosMenu();
+                UsuariosMenu in = new UsuariosMenu();
+                
                 break;
             case 2:
-                
+               int es = 0;
+               int er = sPalabra.leght()-1;
+               boolean bError = false;
+               
+               while ((es<er)&&(!bError)){
+               
+               }
                 break;
             case 3:
                 System.exit(0);
