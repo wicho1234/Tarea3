@@ -1,12 +1,15 @@
 
 package tarea3;
 
+import java.util.Scanner;
+
 
 public class MenuUsuarios {
     
     public MenuUsuarios(){
         while(true){
             
+          
         
         tec in = new tec();
         System.out.println("MENU");
@@ -27,13 +30,8 @@ public class MenuUsuarios {
                 
                 break;
             case 2:
-               int es = 0;
-               int er = sPalabra.leght()-1;
-               boolean bError = false;
-               
-               while ((es<er)&&(!bError)){
-               
-               }
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Ingrese la frase");
                 break;
             case 3:
                 System.exit(0);
